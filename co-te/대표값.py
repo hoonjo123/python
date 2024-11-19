@@ -5,6 +5,8 @@ N = int(input())
 scores = list(map(int,input().split()))
 
 avg = round(sum(scores)/N)
+#파이썬은 round_half_even방식을 택하기 때문에
+
 
 min_diff = float('inf')
 result_score = -1
